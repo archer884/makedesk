@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Duke Nukem
+Exec=/home/username/eduke/eduke32 -j /home/username/eduke
+Icon=/home/username/duke-round.png
+Comment=I'm all out of bubble gum.
+Terminal=false
