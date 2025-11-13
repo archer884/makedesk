@@ -39,7 +39,7 @@ struct Args {
 }
 
 impl Args {
-    fn entry(&self) -> EntryFormatter<Self> {
+    fn entry(&self) -> EntryFormatter<'_, Self> {
         EntryFormatter::new(self)
     }
 }
